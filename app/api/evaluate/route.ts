@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { text, level, topic } = body;
+    const { text, level, topic, customRubric } = body;
 
     if (!text || !level || !topic) {
       return NextResponse.json({ error: "Faltan datos requeridos" }, { status: 400 });
@@ -25,6 +25,7 @@ Tu tarea es:
 3. Dar una puntuación general (0-100).
 4. Si el texto está en otro idioma que no sea inglés, o es texto sin sentido, devuelve un score de 0 y explica el problema.
 
+${customRubric ? `REGLAS DE EVALUACIÓN ADICIONALES DEL CREADOR (SÍGUELAS ESTRICTAMENTE):\n${customRubric}\n` : ''}
 Devuelve la respuesta ESTRICTAMENTE en formato JSON, sin Markdown, sin bloques de código, solo el objeto JSON crudo con esta estructura exacta:
 {
   "score": número,

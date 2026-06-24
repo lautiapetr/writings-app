@@ -5,7 +5,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'WriteMaster AI - Práctica de Writing',
+  title: 'WriteMaster - Práctica de Writing',
   description: 'Mejora tu inglés con Inteligencia Artificial',
 };
 

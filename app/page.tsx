@@ -26,6 +26,13 @@ export default function Home() {
                   </span>
                 )}
               </div>
+              {/* NUEVO ENLACE A LA COMUNIDAD */}
+              <Link 
+                href="/community" 
+                className="text-sm font-bold text-gray-500 hover:text-[#2563EB] transition-colors flex items-center gap-1"
+              >
+                <span className="text-lg">🌎</span> Comunidad
+              </Link>
               <Link 
                 href="/profile" 
                 className="bg-gray-100 hover:bg-gray-200 text-[#1F2937] font-semibold py-2 px-4 rounded-xl text-sm transition-colors"

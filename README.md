@@ -82,7 +82,7 @@ service cloud.firestore {
 
 Este proyecto está bajo la licencia **GNU GPLv3**. Esto significa que el código es abierto y libre de modificarse, pero se deben conservar los créditos de autoría de manera obligatoria y cualquier derivado público de este proyecto deberá heredar la misma filosofía de código abierto.
 
-Desarrollado con ❤️ y con Inteligencia Artificial por **\[Tu Nombre / GitHub Username\]**.
+Desarrollado con ❤️ y con Inteligencia Artificial por **\Lautaro Agustín Petroni**.
 
 # --------------------------------------------------------------------
 #### English
@@ -116,7 +116,7 @@ Follow these steps to run the project locally on your machine:
 
 ### **1\. Clone the repository**
 
-git clone \[https://github.com/YOUR-USERNAME/writingsapp.git\](https://github.com/YOUR-USERNAME/writingsapp.git)  
+git clone \[https://github.com/lautiapetr/writingsapp.git\](https://github.com/lautiapetr/writingsapp.git)  
 cd writingsapp
 
 ### **2\. Install dependencies**
@@ -167,4 +167,4 @@ service cloud.firestore {
 
 This project is licensed under the **GNU GPLv3** (or alternatively **Apache 2.0**). This means that the codebase is open-source and free to modify, provided that original authorship credits are strictly maintained. Any publicly distributed derivative of this project must also inherit this open-source philosophy.
 
-Developed with ❤️ and Artificial Intelligence by **\[Your Name / GitHub Username\]**.
+Developed with ❤️ and Artificial Intelligence by **\Lautaro Agustín Petroni**.

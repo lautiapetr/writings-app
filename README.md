@@ -31,7 +31,7 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 
 ### **1\. Clonar el repositorio**
 
-git clone \[https://github.com/TU-USUARIO/writingsapp.git\](https://github.com/TU-USUARIO/writingsapp.git)  
+git clone \[https://github.com/lautiapetr/writingsapp.git\](https://github.com/lautiapetr/writingsapp.git)  
 cd writingsapp
 
 ### **2\. Instalar dependencias**
